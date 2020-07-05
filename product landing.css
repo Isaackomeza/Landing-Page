@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+body{
+	background: #AED6F1;
+	font-family: 'Play', sans-serif;
+}
+
+.container{
+	background: #AED6F1;
+	font-family: 'Play', sans-serif;
+}
+
+.main{
+	width: 80%;
+	margin: 0 auto;
+}
+
+[type="email"] {
+	border-radius: 5px;
+	padding: 6px 20px;
+	border: none;
+	margin-top: 10px;
+}
+
+button {
+	background-color: #952CDE;
+	border: 0;
+	padding: 7px 15px;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+button:hover{
+	background-color: #FF00FF;
+	font-size: 15px;
+}
+
+input{
+	padding: 6px;
+}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: #DEDEE3;
+	position: sticky;
+	top: 0;
+	padding: 15px 15px;
+	margin: -10px;
+	z-index: 2;
+}
+
+.header a{
+	padding: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+.subhead{
+	background-color: #3498DB;
+	padding: 3px;
+	text-align: center;
+}
+.item{
+	border: 2px solid black;
+}
+
+.subbody{
+	padding: 30px;
+	text-align: center;
+}
+
+.titles{
+	text-align: center;
+}
+
+.attachment{
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.promotions{
+	width:80%;
+	padding-left: 200px;
+}
+
+.promotions section {
+	position: relative;
+	z-index: 1;
+}
+
+.fa-stethoscope{
+color: blue;
+}
+
+.promotions .fas{
+	color: blue;
+	position: absolute;
+	left: -150px;
+}
+
+.promotions h2{
+	margin-bottom: -10px;
+}
+
+.products{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+	grid-gap: 40px 40px; 
+}
+
+.subfooter{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-bottom: -20px;
+}
+
+.subfooter p, .copyright{
+	padding-right: 15px;
+}
+
+.copyright{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer{
+	background: #DEDEE3;
+	margin: 20px -10px 0 -10px;	
+}
+
+	
